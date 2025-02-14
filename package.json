@@ -79,7 +79,7 @@
   "scripts": {
     "component": "node tools/component.js",
     "section": "node tools/component.js --section",
-     "start": "cross-env NODE_ENV=development PORT=10000 HOST=0.0.0.0 node tools/bundler.js",
+    "start": "cross-env NODE_ENV=development node tools/bundler.js",
     "bundle:js": "node tools/bundler.js | uglifyjs -m -c warnings=false > app/bundle.js",
     "bundle:css": "node tools/style.js",
     "bundle": "cross-env NODE_ENV=production npm-run-all bundle:js bundle:css",
