@@ -33,7 +33,7 @@ class Logo extends BaseComponent {
   
   render() {
     return (
-      <a ref={c => { this.container = c; }} className='Logo' href='http://ronikdesign.com' target='_blank'>
+      <a ref={c => { this.container = c; }} className='Logo' href='https://viekayy.github.io/' target='_blank'>
         <Icon name='logo'/>
       </a>
     )
